@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root {
+    --cor-primaria: #E4E0E1;
+    --cor-secundaria: #D6C0B3;
+    --cor-terciaria: #AB886D;
+    --cor-quartenaria: #493628;
+    --fonte-primaria: Arial, Helvetica, sans-serif;
+    --fonte-secundaria: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-quartenaria);
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: var(--cor-terciaria);
+    padding: 15px 10%;
+}
+
+
+
+.navegacao__itens li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 5px 0 5px;
+}
+
+.fotografia {
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo_principal {
+    padding: 6% 5%;
+}
+
+.title {
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.conteudo__feliz_dia_estudante {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carta {
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fotos1, .fotos2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    padding: 3%;
+    text-align: center;
+    color: var(--cor-quartenaria);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
