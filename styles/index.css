@@ -72,7 +72,6 @@ body {
     align-content: flex-start;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 50px;
 }
 
 footer {
@@ -86,9 +85,10 @@ footer p {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 550px) {
-    .fotografia {
-        width: 200px;
-        height: 200px;
-    }
+.fotografia-title {
+    width: 25%;
+}
+
+.imagem {
+    width: 25%;
 }
